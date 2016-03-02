@@ -1,0 +1,33 @@
+{
+    "name": "owl-lazy-srcset",
+    "title": "Owl lazy srcset plugin",
+    "description": "A modification of owl lazy load plugin to support src-set images",
+    "keywords": [
+        "owlcarousel",
+        "lazyload"
+    ],
+    "version": "1.0.0",
+    "author": {
+        "name": "LudoBermejo (using paulokopny code)",
+        "url": "http://www.ludobermejo.es"
+    },
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "http://malsup.github.com/mit-license.txt"
+        },
+        {
+            "type": "GPL",
+            "url": "http://malsup.github.com/gpl-license-v2.txt"
+        }
+    ],
+    "bugs": "https://github.com/LudoBermejo/owl.lazy.srcset/issues",
+    "homepage": "https://github.com/LudoBermejo/owl.lazy.srcset",
+    "docs": "https://github.com/LudoBermejo/owl.lazy.srcset",
+    "download": "https://github.com/LudoBermejo/owl.lazy.srcset/jquery.wakeup.js",
+    "dependencies": {
+        "owl.carousel": "2.0.0-beta.2.4",
+        "jquery": ">=1.7"
+    },
+    "main": "owl.lazy.srcset.js"
+}
