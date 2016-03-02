@@ -1,5 +1,5 @@
 {
-    "name": "owl-lazy-srcset",
+    "name": "owl.lazy.srcset.plugin",
     "title": "Owl lazy srcset plugin",
     "description": "A modification of owl lazy load plugin to support src-set images",
     "keywords": [
