@@ -80,7 +80,7 @@
                 $item.data('owl-item').loaded = true;
                 if ($el.is('img')) {
                     $el.attr('src', img.src);
-                    $el.attr('srcset', $el.data("srcset"));
+                    $el.attr(this.owl.options.srcsetLabel || 'srcset', $el.data("srcset"));
                     $el.removeAttr("data-srcset");
                 } else {
                     $el.css('background-image', 'url(' + img.src + ')');
