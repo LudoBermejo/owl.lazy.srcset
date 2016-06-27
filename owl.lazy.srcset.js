@@ -88,6 +88,14 @@
 
                 $el.css('opacity', 1);
                 this.owl.trigger('loaded', null, 'lazy');
+                if(window.picturefill) {
+                    setTimeout(function() {
+                        picturefill({
+                            reevaluate: false,
+                            elements:  $el[0]
+                        });
+                    },10)
+                }
             }, this);
             img.src = srcType;
         }, this));
